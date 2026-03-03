@@ -4,3 +4,4 @@ Estudiante de quinto semestre de la carrera de mecatroica, estoy cursando la mat
 
 Tengo grandes aspiraciones como programador para esta materia y espero mejorar bastante, y poder llegar a un punto de conocimiento en el que este me de trabajo de corto plazo
 
+VAMOS POR MAS
