@@ -1,0 +1,11 @@
+.
+├── 01_tareas
+│   └── README.md
+├── 02_examenes
+│   └── README.md
+├── LICENSE
+├── prueba.sh
+├── p.txt
+└── README.md
+
+3 directories, 6 files

@@ -1,0 +1,335 @@
+    1  tree
+    2  mkdir permisos_linux
+    3  cd permisos_linux
+    4  mkdir documentos scripts compartidos
+    5  cd documentos
+    6  touch.txt
+    7  touch documentos.txt
+    8  touch informe.txt datos.txt
+    9  cd ..
+   10  cd scripts
+   11  touch backup.sh
+   12  cd ..
+   13  cd compartidos
+   14  touch publico.txt
+   15  cd ..
+   16  tree
+   17  sudo apt install tree
+   18  tree
+   19  sudo apt install tree
+   20  tree
+   21  sudo apt update 
+   22  sudo apt install tree
+   23  tree
+   24  cd documentos
+   25  tee
+   26  tree
+   27  cd ..
+   28  tree
+   29  chmod 640 documentos/informe
+   30  chmod 640 documentos/informe.txt 
+   31  chmod 444 documentos/datos.txt 
+   32  tree -p
+   33  chmod -r documentos
+   34  tree -p
+   35  chmod 620 documentos
+   36  tree -p
+   37  cd documentos
+   38  chmod 711 documentos
+   39  tree -p
+   40  cd documentos
+   41  chmod 620 informe.txt 
+   42  chmod 222 datos.txt 
+   43  cd ..
+   44  cd scripts
+   45  chmod 730 backup.sh 
+   46  cd ..
+   47  chmod 711 documentos
+   48  chmod 733 compartidos
+   49  tree -p
+   50  cd ..
+   51  cd permisos_linux
+   52  touch readme.txt
+   53  chmod 750 readme.txt 
+   54  tree-p
+   55  tree -p
+   56  touch 600 readme.txt 
+   57  tree
+   58  nano readme.txt 
+   59  cd ..
+   60  tree -p
+   61  tree -p permisos_linux/ > tarea_permisosAlanCornejo.txt
+   62  sudo nano etc/deafult/grup
+   63  sudo nano etc/deafult/grub
+   64  sudo nano /etc/deafult/grub
+   65  cd ..
+   66  ls
+   67  cd etc/
+   68  ls
+   69  cd default/
+   70  ls
+   71  nano grub
+   72  sudo nano grub
+   73  sudo update-grub
+   74  sudo nano grub
+   75  sudo nano /etc/deaful/grub
+   76  sudo nano /etc/default/grub
+   77  sudo update-grub
+   78  reboot
+   79  mkdir laboratorio
+   80  cd laboratorio/
+   81  mkdir proyecto apuntes scripts
+   82  cd proyecto/
+   83  cd ..
+   84  pwd
+   85  cd proyecto/
+   86  mkdir proyecto1
+   87  mv proyecto1/ proyecto_linux_1
+   88  ls
+   89  cd ..\
+   90  cd ..
+   91  cd laboratorio/
+   92  ls
+   93  tree
+   94  mkdir proyecto/proyecto_linux_2
+   95  tree
+   96  touch apuntes/comandos_basicos.txt
+   97  tree
+   98  touch apuntes/notas_clases.txt
+   99  tree
+  100  cd apuntes/
+  101  cd apuntes
+  102  ls -a
+  103  nano comandos_basicos.txt 
+  104  LS
+  105  ls
+  106  history | grep chmod
+  107  ssh-keygen -t ed25519 -C "calalapagesem@gmail.com"
+  108  cat /home/gesem/.ssh/id_ed25519.pub
+  109  git --version
+  110  sudo apt install git
+  111  git --version
+  112  git config --global user_name
+  113  git config --global user.name"Gesem21"
+  114  git config --global user_name "Gesem21"
+  115  git config --global user.name "Gesem21"
+  116  git config --global user.email "calalapagesem@gmail.com"
+  117  git config --list
+  118  cd Documents
+  119  git clone git@github.com:Gesem21/IMT_131_GesemCallapa.git
+  120  ls
+  121  cd IMT_131_GesemCallapa/
+  122  ls
+  123  touch .gitignore
+  124  ls
+  125  ls -a
+  126  nano .gitignore
+  127  mkdir 01_tareas 02_examenes
+  128  ls
+  129  tree
+  130  cd 01_tareas/
+  131  touch README.md
+  132  ls
+  133  cd ..
+  134  cd 02_examenes/
+  135  touch README.md
+  136  ls
+  137  cd ..
+  138  tree
+  139  git status
+  140  git add .
+  141  git status
+  142  git commit -m "acabo de crear todo"
+  143  git status
+  144  git push origin main
+  145  tree
+  146  cd Documents/
+  147  cd IMT_131_GesemCallapa/
+  148  tree
+  149  nano README.md
+  150  tree -a
+  151  tree -p
+  152  git branch
+  153  git branch develop
+  154  git branch
+  155  git switch develop
+  156  git switch main
+  157  git checkout -b feat
+  158  git branch
+  159  nano README.md
+  160  git pull
+  161  nano README.md
+  162  git pull
+  163  git switch main
+  164  git pull
+  165  nano README.md
+  166  git add .
+  167  git commit -m "readme 2.0"
+  168  git push origin feat
+  169  git status
+  170  git swtich feat
+  171  git push origin feat
+  172  git push
+  173  cd Documents
+  174  cd IMT_131_GesemCallapa/
+  175  tree
+  176  nano README.md
+  177  pip install python
+  178  sudo apt install python
+  179  nano README.md
+  180  sudo apt install python
+  181  sudo apt install py
+  182  cd /Documents
+  183  cd Documents
+  184  cd IMT_131_GesemCallapa/
+  185  touch prueba.sh
+  186  nano prueba.sh
+  187  ls
+  188  .prueba.sh
+  189  ls -la
+  190  chmod +x prueba.sh
+  191  ls -la
+  192  nano prueba.sh
+  193  .prueba.sh
+  194  cat prueba.sh
+  195  ./prueba.sh
+  196  nano prueba.sh
+  197  ./prueba.sh
+  198  nautilus
+  199  tree > p.txt
+  200  nautilus
+  201  echo "hola"
+  202  cd
+  203  cd..
+  204  echo "hola" > p.txt
+  205  cat p.txt
+  206  nautilus .
+  207  date
+  208  touch simu.sh
+  209  nano simu.sh
+  210  cat simu.sh
+  211  ./simu.sh
+  212  chmod +x simu.sh
+  213  ls -la
+  214  ./simu.sh
+  215  cat simu.sh
+  216  nano simu.sh
+  217  .cat simu.sh
+  218  cat simu.sh
+  219  nautilus
+  220  nano simu.sh
+  221  ./simu.sh
+  222  nautilus .
+  223  ./simu.sh
+  224  cd Download
+  225  cd Downloads
+  226  sudo tar -xzvf tareaLinux3.tar.gz 
+  227  cat tareaLinux3
+  228  cd tareaLinux3/
+  229  ls
+  230  tree
+  231  cd CONSIGNA/
+  232  cat instrucciones.txt 
+  233  ls -la
+  234  chmod 777 CONSIGNA
+  235  history
+  236  cd ..
+  237  chmod 777 CONSIGNA/ 
+  238  chmod 777 INSTRUCCIONES/
+  239  ls -la
+  240  ls
+  241  tree
+  242  cd C
+  243  cd CONSIGNA/
+  244  cat instrucciones.txt 
+  245  nautilus .
+  246  cd ..
+  247  chmod 777 tareaLinux3
+  248  tree
+  249  history
+  250  ls -la
+  251  cd tareaLinux3/
+  252  ls -la
+  253  tree
+  254  .
+  255  . CONSIGNA/
+  256  cd ..
+  257  . tareaLinux3
+  258  cd tareaLinux3/
+  259  . consigna
+  260  chmod 777 .consigna/
+  261  tree
+  262  ls -la
+  263  cd .consigna/
+  264  ls
+  265  cat Instrucciones_Practica.pdf 
+  266  cd ..
+  267  cd .
+  268  cd ..
+  269  cd tareaLinux3/
+  270  cd .consigna/
+  271  chmod 777 Instrucciones_Practica.pdf 
+  272  cat Instrucciones_Practica.pdf 
+  273  nano Instrucciones_Practica.pdf 
+  274  cd ..
+  275  ls -la
+  276  chmod 777 ..
+  277  ls -la
+  278  cd ..
+  279  cd tareaLinux3/
+  280  cat ..
+  281  tree
+  282  chmod +r .consigna/
+  283  tree -pa
+  284  cd .consigna/
+  285  chmod +r .COMUNICADO.txt 
+  286  cat .COMUNICADO.txt 
+  287  nautilus.
+  288  nautilus .
+  289  cd..
+  290  cd ..
+  291  mkdir touch
+  292  hostname whoami date > .log.
+  293  hostname 
+  294  hostname > sistema.log
+  295  whoami >> sistema.log 
+  296  date >> sistema.log 
+  297  cat sistema.log 
+  298  mkdir src docs data
+  299  ls
+  300  ls -la
+  301  tree -p
+  302  mv .consigna/Instrucciones_Practica.pdf sistema.log/data
+  303  cd Downloads
+  304  cd tareaLinux3/
+  305  cat sistema.log
+  306  nano sistema.log
+  307  chmod -wx sitema.log
+  308  chmod -wx sistema.log
+  309  ls -la
+  310  tree
+  311  cd .consigna
+  312  tree
+  313  mv  Instrucciones_Practica.pdf /Downloads/tareaLinux3/data
+  314  cd ..
+  315  mv .consigna/Instrucciones_Practica.pdf data/
+  316  tree
+  317  .consigna
+  318  mv .consigna/.COMUNICADO.txt data/
+  319  rm .consigna
+  320  rmdir .consigna/
+  321  cd src/
+  322  touch check_engine.sh
+  323  ls
+  324  nano check_engine.sh 
+  325  cat check_engine.sh 
+  326  history
+  327  . check_engine.sh 
+  328  df -h
+  329  ls -la
+  330  chmod +x check_engine.sh 
+  331  ls -la
+  332  chmod 700 check_engine.sh 
+  333  ls -la
+  334  cd ..
+  335  history > comandos.txt

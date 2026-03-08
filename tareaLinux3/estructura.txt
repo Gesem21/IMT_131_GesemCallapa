@@ -1,0 +1,18 @@
+[drwxrwxrwx]  .
+├── [-rw-rw-r--]  comandos.txt
+├── [drwxrwxrwx]  CONSIGNA
+│   └── [-rw-rw-r--]  instrucciones.txt
+├── [drwxrwxr-x]  data
+│   ├── [-r--r--r--]  .COMUNICADO.txt
+│   └── [-rwxrwxrwx]  Instrucciones_Practica.pdf
+├── [drwxrwxr-x]  docs
+├── [-rw-rw-r--]  estructura.txt
+├── [drwxrwxrwx]  INSTRUCCIONES
+│   └── [-rw-rw-r--]  Instrucciones_Practica.pdf
+├── [-rw-rw-r--]  .log.
+├── [-r--r--r--]  sistema.log
+├── [drwxrwxr-x]  src
+│   └── [-rwx------]  check_engine.sh
+└── [drwxrwxr-x]  touch
+
+7 directories, 9 files
