@@ -1,0 +1,49 @@
+error: memoria llena
+error: archivo no encontrado
+info: proceso iniciado
+info: proceso terminado
+6 datos/nombres.txt
+      2       2       8
+ana
+ana
+juan
+juan
+maria
+pedro
+./datos/nombres.txt
+./datos/log.txt
+./ejercicios.txt
+3
+error: archivo no encontrado
+error: memoria llena
+    
+  421  grep error datos/log.txt >> ejercicios.txt
+  422  grep info datos/log.txt >> ejercicios.txt 
+  423  wc datos/nombres.txt -l >> ejercicios.txt
+  424  rm ejercicios
+  425  ls
+  426  grep ana datos/nombres.txt | wc datos/nombres.txt 
+  427  cat datos/nombres.txt 
+  428  grep ana datos/nombres.txt | wc
+  429  grep ana datos/nombres.txt | wc >> ejercicios.txt 
+  430  sort datos/nombres.txt 
+  431  sort datos/nombres.txt >> ejercicios.txt 
+  432  find . -name "*.txt"
+  433  find . -name "*.txt" >> ejercicios.txt 
+  434  find . -name "*.txt" | wc  
+  435  find . -name "*.txt" | wc -w 
+  436  find . -name "*.txt" | wc -w >> ejercicios.txt 
+  437  grep error datos/log.txt | sort
+  438  grep error datos/log.txt | sort >> ejercicios.txt 
+  439  echo "    " >> ejercicios.txt 
+  440  cat ejercicios.txt 
+  441  nano ejercicios.txt 
+  442  history >> ejercicios.txt 
+  443  tree
+  444  tree -pra
+  445  tree -pa
+  446  nano ejercicios.txt 
+  447  history 30
+  448  history 30 >> resultado_practica4.txt
+  449  cat ejercicios.txt 
+  450  history 30 >> ejercicios.txt 
