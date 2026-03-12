@@ -1,0 +1,5 @@
+./busqueda.txt
+./formato.txt
+./datos/informacion.txt
+./datos/formato.txt
+./datos/usuarios.txt

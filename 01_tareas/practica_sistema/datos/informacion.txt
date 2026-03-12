@@ -1,0 +1,7 @@
+total 20
+drwxrwxr-x 2 gesem gesem 4096 Mar 12 16:38 .
+drwxrwxr-x 6 gesem gesem 4096 Mar 12 16:27 ..
+-rw-rw-r-- 1 gesem gesem  218 Mar 12 16:24 accesos.log
+-rw-rw-r-- 1 gesem gesem   42 Mar 12 16:28 formato.txt
+-rw-rw-r-- 1 gesem gesem    0 Mar 12 16:38 informacion.txt
+-rw-rw-r-- 1 gesem gesem   36 Mar 12 16:21 usuarios.txt

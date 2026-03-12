@@ -1,0 +1,8 @@
+total 24
+drwxrwxr-x 6 gesem gesem 4096 Mar 12 16:27 .
+drwxrwxr-x 6 gesem gesem 4096 Mar 12 16:19 ..
+drwxrwxr-x 2 gesem gesem 4096 Mar 12 16:19 backup
+drwxrwxr-x 2 gesem gesem 4096 Mar 12 16:23 datos
+-rw-rw-r-- 1 gesem gesem    0 Mar 12 16:27 formato.txt
+drwxrwxr-x 2 gesem gesem 4096 Mar 12 16:19 reportes
+drwxrwxr-x 2 gesem gesem 4096 Mar 12 16:19 scripts

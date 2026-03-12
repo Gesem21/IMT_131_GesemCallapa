@@ -1,0 +1,22 @@
+error: contrase~na incorrecta juan
+error: usuario no encontrado carlos
+error: contrase~na incorrecta ana
+3
+info: login correcto ana
+info: login correcto maria
+info: login correcto lucas
+ana
+ana
+juan
+juan
+lucas
+maria
+pedro
+7 datos/usuarios.txt
+error: contrase~na incorrecta ana
+error: contrase~na incorrecta juan
+error: usuario no encontrado carlos
+info: login correcto ana
+info: login correcto lucas
+info: login correcto maria
+warning: intento sospechoso pedro
