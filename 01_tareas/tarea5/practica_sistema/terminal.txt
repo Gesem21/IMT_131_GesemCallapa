@@ -1,0 +1,50 @@
+  424  grep info datos/accesos.log
+  425  grep error datos/accesos.log > parte5.txt
+  426  grep error datos/accesos.log | wc -l >> parte5.txt 
+  427  grep info datos/accesos.log >> parte5.txt 
+  428  cat parte5.txt 
+  429  sort datos/usuarios.txt 
+  430  sort datos/usuarios.txt >> parte5.txt 
+  431  wc -l datos/usuarios.txt 
+  432  wc -l datos/usuarios.txt >> parte5.txt 
+  433  cat datos/accesos.log | sort datos/accesos.log 
+  434  cat datos/accesos.log | sort datos/accesos.log >> parte5.txt 
+  435  cd reportes/
+  436  cd ..
+  437  wc -l > reportes/reportes_sistemas.txt
+  438  cat reportes/reportes_sistemas.txt 
+  439  nano reportes/reportes_sistemas.txt 
+  440  wc -l >> reportes/reportes_sistemas.txt 
+  441  wc -ls datos/usuarios.txt 
+  442  wc -l datos/usuarios.txt 
+  443  wc -l datos/usuarios.txt >> reportes/reportes_sistemas.txt 
+  444  breg error datos/accesos.log 
+  445  grep error datos/accesos.log 
+  446  grep error datos/accesos.log | wc -l
+  447  grep error datos/accesos.log | wc -l >> reportes/reportes_sistemas.txt 
+  448  sort datos/usuarios.txt 
+  449  sort datos/usuarios.txt >> reportes/reportes_sistemas.txt 
+  450  touch scripts/analisis.sh
+  451  nano scripts/analisis.sh 
+  452  cd scripts/
+  453  ls
+  454  ./analisis.sh
+  455  chmod 777 analisis.sh 
+  456  ./analisis.sh
+  457  cd ..
+  458  git add .
+  459  git status
+  460  git commit -m "practica 5"
+  461  git push
+  462  cd 01
+  463  cd 01_tareas/
+  464  cd tarea5/
+  465  tree
+  466  ls
+  467  cd ..
+  468  mv practica_sistema/ tarea5/
+  469  ls
+  470  cd tarea5/
+  471  tree
+  472  cd practica_sistema/
+  473  history 50 >> terminal.txt
